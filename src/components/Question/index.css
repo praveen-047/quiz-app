@@ -1,0 +1,100 @@
+.question-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.options-list {
+  padding: 0px;
+  margin: 0px;
+}
+
+.options-list li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  color: #334155;
+  display: flex;
+  align-items: center;
+}
+.radio-options-list li {
+  margin-bottom: 10px;
+}
+/* .options-list li .button{
+    width: 150px;
+    background-color: #CBD5E1;
+    border-radius: 10px;
+    border:none;
+    padding: 10px 20px;
+    text-align: start;
+} */
+
+/* image options */
+.image-button {
+  border: none;
+  background: transparent;
+  width: 200px;
+  height: 70px;
+}
+.option-image {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* ---------------options--------css */
+.button {
+  background-color: #cbd5e1;
+  border: 0px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 80%;
+  text-align: left;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.button.correct {
+  background-color: #1c944b;
+  color: white;
+}
+
+.button.wrong {
+  background-color: #bf2626;
+  color: white;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  padding: 0px;
+}
+
+.single-select-option {
+  display: flex;
+}
+.single-select-option.correct {
+  border-radius: 6px;
+}
+
+.single-select-option.wrong {
+  border-radius: 6px;
+}
+
+/* device width >= 768px */
+@media screen and (min-width: 768px) {
+  .question-and-option-container {
+    padding: 20px 45px;
+  }
+  .options-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .button {
+    width: 30vw;
+    padding: 20px;
+  }
+}

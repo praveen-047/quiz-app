@@ -1,0 +1,161 @@
+.game-results-container {
+  width: 100vw;
+  min-height: 93vh;
+  background: linear-gradient(to right, #dbbcc4, #f3dfd8, #d8bfd0, #b7b1d5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game-results-card {
+  width: 85vw;
+  height: 78vh;
+  background-color: white;
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.report-btn{
+  border-width: 0px;
+  margin-top: 20px;
+  background-color: #0EA5E9;
+  border-radius: 10px;
+  padding: 10px 25px;
+  color: white;
+  font-size: 17px;
+}
+
+/* success view */
+.success-container {
+  width: 85vw;
+  height: 78vh;
+  background-color: white;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/quiz-game-congrats-card-bg.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trophy-image-container {
+  width: 50%;
+  height: 35%;
+  margin-top: 50px;
+}
+.trophy-image {
+  width: 100%;
+  height: 100%;
+}
+.result-heading {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+}
+.result-percentage {
+  color: #0ea5e9;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 40px;
+}
+.successfull-message {
+  color: #334155;
+  font-size: 19px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 500;
+}
+.attempted-text {
+  color: #64748b;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .trophy-image-container {
+    width: 40%;
+    height: 45%;
+  }
+  .result-heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .result-percentage {
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .successfull-message {
+    font-size: 22px;
+    line-height: 50px;
+  }
+  .attempted-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* failure view */
+.failure-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-image-container {
+  width: 80%;
+  height: 50%;
+  margin-top: 50px;
+}
+.failure-image {
+  width: 100%;
+  height: 100%;
+}
+.result-heading {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.percent-heading {
+  text-align: center;
+  color: #0ea5e9;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.result-text {
+  text-align: center;
+  color: #64748b;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-image-container {
+    width: 50%;
+    height: 50%;
+  }
+  .result-heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .percent-heading {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+  .result-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}

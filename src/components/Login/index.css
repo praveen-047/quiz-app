@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  font-family: "Roboto";
+}
+.login-bg-container {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to right, #dbbcc4, #f3dfd8, #d8bfd0, #b7b1d5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  width: 85vw;
+  height: 85vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.login-logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-logo {
+  width: 96px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+.login-form-container {
+  width: 100%;
+  margin-top: 20px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.login-label {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 700;
+  color: #7e858e;
+}
+.login-input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d7dfe9;
+  border-radius: 12px;
+  color: #263868;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 8px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+}
+.checkbox-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 5px;
+}
+.login-button{
+    width: 100%;
+    color: white;
+    background-color: #0EA5E9;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.error-msg {
+  width: 100%;
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* media query for device width >= 768px(tablet)*/
+@media screen and (min-width:768px){
+  .login-form-container{
+    width: 320px;
+  }
+  .login-input{
+    margin: 7px 0px 20px 0px;
+  }
+}

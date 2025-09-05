@@ -1,0 +1,87 @@
+.game-report-container {
+  width: 100vw;
+  min-height: 93vh;
+  background: linear-gradient(to right, #dbbcc4, #f3dfd8, #d8bfd0, #b7b1d5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game-report-card {
+  width: 85vw;
+  height: 78vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.game-report-card-summary{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.x-ten-container{
+    border: 5px solid #0EA5E9;
+    border-radius: 100%;
+    padding: 20px;
+    width: 90px;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.x-ten-container span{
+    color: #0EA5E9;
+    font-size: 25px;
+    font-weight: 500;
+}
+.correct-incorrect-unattempted{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.game-report-icons{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width:768px){
+    .game-report-icons{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.game-report-questions{
+    
+    width: 100%;
+    min-height: 58vh;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+.unattempted{
+    color: #0EA5E9;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+}
+.attempted-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.attempted{
+    color: #0EA5E9;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+}
